@@ -1,0 +1,44 @@
+program: train_baselines.py
+method: grid
+metric:
+  goal: maximize
+  name: val_align_acc
+parameters:
+  root_dir:
+    value: ""
+  dataset_id:
+    value: "minigrid"
+  dataset_fname:
+    value: "unlockpickup"
+  obs_type:
+    value: "partial"
+  model_type:
+    value: "compile"
+  hidden_size:
+    value: 64
+  latent_dist:
+    value: "gaussian"
+  latent_size:
+    value: 64
+  beta:
+    value: 0.05
+  prior_rate:
+    value: 2
+  num_segments:
+    value: 3
+  learning_rate:
+    value: 0.0005
+  batch_size:
+    value: 32
+  epochs:
+    value: 100
+  max_patience:
+    value: 7
+  gpu_id:
+    value: 0
+  save_logs:
+    value: 1
+  wandb_logging:
+    value: 1
+  seed:
+    values: [5, 7, 11, 13, 17]

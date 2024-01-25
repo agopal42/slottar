@@ -82,11 +82,14 @@ This repository has adapted and/or utilized the following resources:
 ### Cite
 If you make use of this code in your own work, please cite our paper:
 ```
-@article{gopalakrishnan2022slottar,
-  title={Unsupervised Learning of Temporal Abstractions with Slot-based Transformers},
-  author={Anand Gopalakrishnan and Kazuki Irie and J{\"u}rgen Schmidhuber and Sjoerd van Steenkiste},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2203.13573}
+@article{gopalakrishnan2023slottar,
+    author = {Gopalakrishnan, Anand and Irie, Kazuki and Schmidhuber, Jürgen and van Steenkiste, Sjoerd},
+    title = "{Unsupervised Learning of Temporal Abstractions With Slot-Based Transformers}",
+    journal = {Neural Computation},
+    volume = {35},
+    number = {4},
+    pages = {593-626},
+    year = {2023},
 }
+
 ```
